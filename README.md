@@ -1,37 +1,43 @@
 # 🎲 Up or Down - C++ Console Game
 
-A simple number prediction game written in **C++**.  
-Playable in the terminal.
+A simple number prediction game recreated in **C++** for the terminal, originally inspired by the iOS SwiftUI version.
 
 ---
 
 ## 🎮 How to Play
 - A random number between **1 and 9** appears.
-- Predict whether the next number will be **UP** (higher) or **DOWN** (lower).
-- The next number will never repeat the previous number.
-- Correct predictions multiply your balance based on the current number's difficulty:
-    - **Easier choices give smaller rewards.**
-    - **Riskier choices give bigger rewards.**
+- You predict whether the next number will go **UP** or **DOWN**.
+- The next number is always **different** from the current number.
+- Correct guesses multiply your balance based on difficulty:
+    - **Safer choices** give lower rewards.
+    - **Riskier choices** give higher rewards.
+- You can gain up to **25X OR MORE** if you get 5 correct in a row.
 
-You can choose to **GIVE UP** at any time to keep your current winnings.
+  
+You can **"GIVE UP"** at any time to secure your current balance,  
+but if your guess is wrong the game ends with **NO REWARD AND YOUR BALANCE RESET TO ZERO**.
 
 ---
 
 ## 💡 Features
 - Random numbers from **1 to 9**
-- Ensures next number is never the same as the current
-- Dynamic balance multiplier based on difficulty
-- Displays current round and possible future rewards
-- Clean terminal interface
-- Input validation to prevent invalid choices
-- Option to **restart the game** after losing
+- Ensures the next number is **never the same** as the current
+- Balance grows based on risk/reward
+- Clear round counter display
+- Shows possible rewards for both **UP** and **DOWN**
+- Simple and clean **console-based interface**
+- Option to restart the game after losing
 
 ---
 
-## 🚀 Technologies
+## 🚀 Technologies Used
 - **C++**
-- **Standard Library (iostream, cstdlib, ctime, iomanip)**
+- **Standard Library:** `iostream`, `cstdlib`, `ctime`, `iomanip`
 
 ---
 
-## 📂 Project Structure
+## 🔧 How to Run
+### 💻 Using `g++` (Terminal):
+```bash
+g++ main.cpp -o UpOrDown
+./UpOrDown

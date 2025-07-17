@@ -1,7 +1,6 @@
 # 🎲 Up or Down - C++ Console Game
 
-A simple number prediction game recreated in **C++** for the terminal, originally inspired by the iOS SwiftUI version.
-
+A simple number prediction game recreated in **C++** for the terminal.
 ---
 
 ## 🎮 How to Play
